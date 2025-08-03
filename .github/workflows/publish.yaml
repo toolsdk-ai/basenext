@@ -1,4 +1,4 @@
-name: Publish
+name: NPM Publish
 
 on:
   push:
@@ -8,9 +8,12 @@ on:
 
 jobs:
   test-and-publish:
-    env:
-      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    env:
+      NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
     steps:
       - uses: actions/checkout@v4
 
