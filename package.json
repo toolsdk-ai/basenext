@@ -1,0 +1,18 @@
+{
+  "name": "basenext",
+  "private": true,
+  "version": "1.9.1-alpha.16",
+  "description": "BaseNext is a NextJS boilerplate for building AI SaaS startups. Build AI Apps Fast with a variety of templates and components.",
+  "exports": {
+    "./*": "./*.ts",
+    "./*.tsx": "./*.tsx"
+  },
+  "scripts": {},
+  "dependencies": {
+    "nanoid": "^5.0.9",
+    "zod": "^3.23.30"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
