@@ -1,14 +1,12 @@
 {
   "name": "basenext",
-  "version": "1.9.1-alpha.31",
+  "version": "1.9.1-alpha.34",
   "description": "BaseNext is a TypeScript-only NextJS boilerplate for building AI Agent Apps. Build AI Apps Fast with a variety of templates and components.",
   "exports": {
     "./*": "./*.ts",
     "./*.tsx": "./*.tsx"
   },
-  "scripts": {
-    "publish": "npm publish --access public"
-  },
+  "scripts": {},
   "dependencies": {
     "nanoid": "^5.0.9",
     "zod": "^3.23.30"
